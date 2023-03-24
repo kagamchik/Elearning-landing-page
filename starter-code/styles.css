@@ -1,0 +1,169 @@
+
+
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f0f1ff;
+}
+
+
+.top-line{
+display: flex;
+justify-content: space-around;
+}
+
+.header{
+    display: flex;
+    /* padding: 50px; */
+    height: 100vh;
+    padding: 50px 50px;
+    margin: 50px 50px;
+}
+
+.top-skill{
+    color: #13183F;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.top-start{
+    background-color:#13183F;
+    padding: 15px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+}
+
+h1{
+color: #13183F;
+font-size: 56px;
+font-weight: 800;
+width: 60%;
+}
+
+.left-text{
+    
+}
+
+.header-par{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    width: 50%;
+
+}
+.main-img{
+    width: 100%;
+    position: relative;
+    bottom:50px;
+    left: 250px;
+    
+}
+
+.red-button{
+    margin-top: 20px;
+    background-image: linear-gradient(hsl(322, 87%, 55%), hsl(13,100%,64%));
+    padding: 15px;
+    border-radius: 25px;
+    width: 40%;
+    color: white;
+    border: none;
+}
+
+.flex-container{
+    /* background-color: black; */
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+    
+}
+
+.flex-item{
+    margin: 20px;
+    width: 25%;
+    border-radius: 20px;
+    height: 320px;
+    justify-content: flex-start;
+    background-color: #FFFF;
+    padding: 15px 20px;
+}
+
+.first-block{
+    background-image: linear-gradient(hsl(322, 87%, 55%), hsl(13,100%,64%));
+    padding: 15px 20px;
+   
+}
+
+.first-block-h2{
+    width: 50%;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: white;
+}
+
+.grid-par{
+    color: #83869A;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+a{
+    color: #F74780;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FFA7C3;
+}
+
+.red-button:hover{
+    background-image: linear-gradient(hsla(322, 87%, 55%,0.5), hsla(13,100%,64%,0.5));
+}
+
+.top-start:hover{
+    background-color: hsla(233, 54%, 16%,0.5);
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #13183F;
+    height: 100px;
+    align-items: center;
+    
+}
+
+.bot-skill{
+    color: white;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 18px;
+
+}
+
+.bot-start{
+    background-image: linear-gradient(hsl(237, 100%, 64%), hsl(322,87%,55%));
+    padding: 15px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+}
+
+.bot-start:hover{
+    background-image: linear-gradient(hsla(237, 100%, 64%,0.5), hsla(322,87%,55%,0.5))
+
+}
+
+
+
